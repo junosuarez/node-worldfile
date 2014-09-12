@@ -1,9 +1,13 @@
 {
   "name": "worldfile",
   "author": "jden <jason@denizac.org>",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "generate world files for georeferenced images",
-  "keywords": ["gis", "georeference", "esri"],
+  "keywords": [
+    "gis",
+    "georeference",
+    "esri"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -13,5 +17,8 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "mochi": "0.1.0"
+  },
+  "dependencies": {
+    "xtend": "^4.0.0"
   }
 }
